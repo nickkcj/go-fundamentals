@@ -1,0 +1,10 @@
+go 1.24.5
+
+use (
+	./basics/functions
+	./basics/strings
+	./basics/variables
+	./exercises/investment-calculator
+	./exercises/profit-calculator
+	./shared/utils
+)
