@@ -2,6 +2,10 @@
 
 This repository contains Go fundamentals with practical examples and exercises.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dd344fad-7bdd-4da8-86b5-a9fc4322bb6d" alt="Go Programming Language" width="200"/>
+</div>
+
 ## 📁 Structure
 
 ```
