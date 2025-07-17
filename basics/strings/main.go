@@ -13,9 +13,18 @@ func main() {
 	// %s is a placeholder for the string value, we can use it to format the output
 	fmt.Printf("Formatted String: %s\n", basicString)
 
+	// Using placeholder with .2f to format a float
+	var number float64 = 3.14159
+	fmt.Printf("Formatted Number: %.2f\n", number)
+
 	// Using Sprintf to create a formatted string
 	formattedString := fmt.Sprintf("Formatted String with Sprintf: %s", basicString)
 	fmt.Println(formattedString)
+
+	// If we want to use multiline strings, we can use backticks
+	multilineString := `This is a multiline string.
+	It can span multiple lines without needing to use \n.`
+	fmt.Println("Multiline String:", multilineString)
 
 	// We can also use a lot of placeholders in Printf
 	fmt.Printf("Formatted String with multiple placeholders: %s, Length: %d\n", basicString, len(basicString))

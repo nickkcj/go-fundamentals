@@ -4,6 +4,7 @@ use (
 	./basics/functions
 	./basics/strings
 	./basics/variables
+	./exercises/bank
 	./exercises/investment-calculator
 	./exercises/profit-calculator
 	./shared/utils
