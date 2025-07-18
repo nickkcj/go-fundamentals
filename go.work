@@ -1,6 +1,8 @@
 go 1.24.5
 
 use (
+	./basics/errors
+	./basics/files
 	./basics/functions
 	./basics/strings
 	./basics/variables
