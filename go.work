@@ -4,6 +4,7 @@ use (
 	./basics/errors
 	./basics/files
 	./basics/functions
+	./basics/packages
 	./basics/strings
 	./basics/variables
 	./exercises/bank

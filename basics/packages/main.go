@@ -7,6 +7,11 @@ import (
 	"example/packages.com/calculator"
 	"example/packages.com/menu"
 	"example/packages.com/utils"
+	"github.com/pkg/errors" // We can also use third-party packages like this
+	// We need to search for the package name in Go modules,
+	// Then run the command `go get github.com/pkg/errors`
+	// It will automatically update the go.mod and go.sum files
+	// (Use 'go get' to install packages from the command line.)
 )
 
 func main() {
